@@ -1,5 +1,6 @@
 var wordsList = [];
 
+
 function init() {
   // Load the words from the dictionary text file to wordsList
   var wordsFile = "https://raw.githubusercontent.com/GirlsFirst/SIP-2017/master/Unit2_Applications/dictionary-attack/dictionary.txt?token=ADcVhZjRMd86ZdhPE2jVvIaJdQdzLA6Yks5YvvVSwA%3D%3D";
@@ -9,7 +10,6 @@ function init() {
     document.getElementById("btnSubmit").disabled = false;
   });
 }
-
 window.onload = init;
 
 
@@ -25,10 +25,9 @@ function checkPassword() {
     var matchingWord = "";
 
     // Make a list of alternate versions of the string to check
-
+    
     // Iterate over the list of words to see if the password is contained in the dictionary word list
-
-    /* ADD YOUR CODE BELOW  - to add a for loop to iterate wordsList */
+    /* ADD YOUR CODE BELOW  - to add a for loop to iterate "wordsList" */
     for ( /* Put your loop statement here. */ ) {
       /* ADD YOUR CODE BELOW - If the password variation matches the dictionary word, it's not a secure password */
       /* Put your conditional here. */
