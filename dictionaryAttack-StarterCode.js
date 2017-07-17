@@ -12,7 +12,6 @@ function init() {
 
 window.onload = init;
 
-/* ADD YOUR CODE BELOW */
 
 function checkPassword() {
   // Get user-entered password from input box
